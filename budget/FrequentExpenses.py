@@ -41,4 +41,4 @@ ax.set_title("# of Purchases by Category")
 
 #Task 9
 #Display the graph
-#plt.show()
+plt.show()
