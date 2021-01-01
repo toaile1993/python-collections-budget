@@ -1,6 +1,6 @@
 from . import Expense
 import collections
-import tkinter as tk
+#import tkinter as tk
 import matplotlib.pyplot as plt
 
 #Task 2
