@@ -1,4 +1,5 @@
 from . import Expense
+import collections
 
 #Task 2
 expenses = Expense.Expenses()
@@ -10,5 +11,7 @@ spending_categories = []
 for expense in expenses.list:
     spending_categories.append(expense.category)
 
-
+#Task 4
+spending_counter = collections.Counter(spending_categories) 
+print(spending_counter)
 
